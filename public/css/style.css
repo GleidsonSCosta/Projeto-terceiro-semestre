@@ -53,6 +53,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    padding-left: 0;
 }
 
 .menu-nav a {
@@ -72,7 +73,8 @@ img {
     .menu-nav ul {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;        
+        flex-wrap: nowrap; 
+               
     }
 	.menu-nav ul li a {
 		padding: 10px;
